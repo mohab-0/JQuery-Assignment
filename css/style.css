@@ -1,0 +1,238 @@
+:root {
+    --main-color: #E68285;
+    --secondary-color: #111111;
+}
+
+/* ========== Home Section ========== */
+#Home {
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+
+.HomeOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+#Home h2 {
+    margin-top: 200px;
+}
+
+#Home h2,
+p {
+    text-align: center;
+}
+
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#home-content h2 {
+    font-size: 60px;
+}
+
+/* ========== Nav Side Section ========== */
+.open {
+    height: 100vh;
+    width: 250px;
+    z-index: 9;
+    left: -250px;
+    top: 0;
+    background-color: var(--main-color);
+    transition: all 0.5s;
+}
+
+.open ul
+{
+    text-align: left;
+    margin-top: 80px;
+}
+
+.open i
+{
+    font-size: 30px;
+    left: 80%;
+    top: 5%;
+    cursor: pointer;
+}
+
+.open ul li
+{
+    margin: 40px 0 40px 0;
+    font-size: 25px;
+}
+
+.open a
+{
+    text-decoration: none;
+    color: #FFF !important;
+    font-weight: bold;
+}
+
+#Home .open-icon {
+    right: -110;
+    top: 50%;
+    left: 105%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+/* ========== Accordion Section ========== */
+.acc h3 {
+    background-color: var(--main-color);
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.acc>div {
+    background-color: #CCCCCC;
+    color: var(--secondary-color);
+    text-align: justify;
+    text-transform: capitalize;
+    padding: 10px;
+    display: none;
+    margin-top: 0 !important;
+}
+
+/* ========== Counter Section ========== */
+#count {
+
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+
+
+}
+
+.count-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+
+.container {
+    padding: 100px 0px;
+}
+
+.time {
+
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* ========== Contact Section ========== */
+#contact-us {
+    margin-top: 100px;
+}
+
+#contact-us .head h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contact-us .head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#contact-us .con-info h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#contact-us .con-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+
+#contact-us .icons {
+    margin-top: 50px;
+}
+
+#contact-us .icons p {
+    margin-bottom: 35px;
+}
+
+#contact-us i {
+    margin-right: 20px;
+    color: #777;
+}
+
+#contact-us .red {
+    color: #D62E33 !important;
+}
+
+.social-list {
+    margin-top: 60px;
+    color: #777;
+
+}
+
+.social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.social-list i:hover {
+    color: #fff !important;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+form input,
+form textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+form textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+form button {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+
+#remaningChars {
+    font-size: 20px;
+    color: #D62E33;
+}
